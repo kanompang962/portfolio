@@ -20,7 +20,7 @@ const HomeSection = ({ addSectionIds }) => {
   }, []);
 
   return (
-    <section id={id} className="section">
+    <section id={id} className="lg:section">
       <div className="container mx-auto h-full relative">
         <div className="flex flex-col  h-full justify-center  text-center lg:text-left lg:pt-28">
           {/* Text */}
@@ -29,7 +29,7 @@ const HomeSection = ({ addSectionIds }) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-50%" }}
             transition={transition}
-            className="w-full pt-28 lg:pt-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start"
+            className="w-full pt-20 lg:pt-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start"
           >
             <h1 className="h1">
               Thianchai
