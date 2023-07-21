@@ -40,7 +40,7 @@ const Experience = ({ addSectionIds }) => {
             </button>
           </div>
           {/* Exp */}
-          <div className="flex-1 text-start order-2 lg:order-none mt-4 ml-2 lg:ml-0 lg:mt-0">
+          <div className="flex-1 text-start order-2 lg:order-none mt-4 pl-4 lg:ml-0 lg:mt-0">
             <ul>
               {coursesData.map((item, index) => (
                 <li
