@@ -19,7 +19,7 @@ const Experience = ({ addSectionIds }) => {
       <div className="container h-full mx-auto relative ">
         <div className="flex flex-col lg:flex-row h-full justify-center items-center gap-x-24 text-center lg:text-left lg:pt-28">
           {/* text */}
-          <div className="flex-1 flex flex-col pt-28 pb-4 lg:pb-12 lg:pt-0 lg:w-auto z-10 justify-center items-center lg:items-start">
+          <div className="flex-1 flex flex-col pt-20 pb-4 lg:pb-12 lg:pt-0 lg:w-auto z-10 justify-center items-center lg:items-start">
             <h1 className="h1">{id}</h1>
             <p className="mb-4 lg:max-w-md ">
               Used to train as Web Developer at Kingbangkok Intertrade Co. Ltd.
@@ -40,7 +40,7 @@ const Experience = ({ addSectionIds }) => {
             </button>
           </div>
           {/* Exp */}
-          <div className="flex-1 text-start order-2 lg:order-none mt-4 pl-4 lg:ml-0 lg:mt-0">
+          <div className="flex-1 text-start order-2 lg:order-none mt-4 px-4 lg:ml-0 lg:mt-0">
             <ul>
               {coursesData.map((item, index) => (
                 <li

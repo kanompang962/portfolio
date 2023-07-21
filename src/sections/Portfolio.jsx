@@ -14,7 +14,7 @@ const Portfolio = ({ addSectionIds }) => {
       <div className="container h-full mx-auto relative ">
         <div className="flex flex-col lg:flex-row h-full justify-center gap-x-24 text-center lg:text-left lg:pt-28">
           {/* text */}
-          <div className=" flex-1 flex flex-col pt-28 pb-4 lg:pb-12 lg:pt-10 lg:w-auto z-10 items-center lg:items-start">
+          <div className=" flex-1 flex flex-col pt-20 pb-4 lg:pb-12 lg:pt-10 lg:w-auto z-10 items-center lg:items-start">
             <h1 className="h1">{id}</h1>
             <p className="mb-12 lg:max-w-md ">
               This portfolio is made to store different projects. both study,

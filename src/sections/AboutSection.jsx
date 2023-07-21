@@ -42,7 +42,7 @@ const AboutSection = ({ addSectionIds }) => {
             />
           </div>
           {/* text */}
-          <div className=" flex-1 flex flex-col pt-28 pb-4 lg:pb-12 lg:pt-0 lg:w-auto z-10 justify-center items-center lg:items-start">
+          <div className=" flex-1 flex flex-col pt-20 pb-4 lg:pb-12 lg:pt-0 lg:w-auto z-10 justify-center items-center lg:items-start">
             <h1 className="h1">About Me</h1>
             <p className="mb-4 lg:max-w-lg">
               &nbsp;&nbsp;&nbsp;&nbsp; I am a computer science student with a
