@@ -1,13 +1,9 @@
-import React, { useContext, useEffect } from "react";
+import React, { useEffect } from "react";
 import profile from "../img/home/profile.png";
 import Resume from "../assets/resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLine } from "@fortawesome/free-brands-svg-icons";
-import {
-  faArrowDown,
-  faMailBulk,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 // animation
 import { motion } from "framer-motion";
 import { transition } from "../transition";
