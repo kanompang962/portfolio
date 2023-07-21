@@ -9,6 +9,8 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 // animation
+import { motion } from "framer-motion";
+import { transition } from "../transition";
 
 const HomeSection = ({ addSectionIds }) => {
   const id = "Home";
@@ -22,9 +24,16 @@ const HomeSection = ({ addSectionIds }) => {
       <div className="container mx-auto h-full relative">
         <div className="flex flex-col  h-full justify-center  text-center lg:text-left lg:pt-28">
           {/* Text */}
-          <div className="w-full pt-28 lg:pt-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start">
+          <motion.div
+            initial={{ opacity: 0, y: "-50%" }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: "-50%" }}
+            transition={transition}
+            className="w-full pt-28 lg:pt-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start"
+          >
             <h1 className="h1">
-              Thianchai <br /> & Chamnan
+              Thianchai
+              <br /> & Chamnan
             </h1>
             {/* <p className="text-[26px] lg:text-[36px] font-primary mb-4">
               Front End Developer
@@ -61,12 +70,22 @@ const HomeSection = ({ addSectionIds }) => {
                 </button>
               </a>
             </div>
-          </div>
+          </motion.div>
           {/* Image */}
-          <div className="flex justify-end max-h-96 lg:max-h-max lg:overflow-hidden">
-            <div className="relative lg:-right-40">
-              <img src={profile} alt="" />
-            </div>
+          <div className="flex justify-end  max-h-96 lg:max-h-max lg:overflow-hidden">
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0 }}
+              transition={transition}
+              className="relative lg:-right-40 overflow-hidden"
+            >
+              <img
+                className="hover:scale-110 transition duration-300 ease-out"
+                src={profile}
+                alt=""
+              />
+            </motion.div>
           </div>
         </div>
       </div>

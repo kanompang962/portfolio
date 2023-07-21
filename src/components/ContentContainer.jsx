@@ -38,7 +38,9 @@ const ContentContainer = ({
           <div
             key={`${id}-${title.split(" ").join("")}-${index}`}
             className={`grid grid-cols-[25%_75%] px-2 py-6 rounded-sm transition-all shadow-sm ${
-              isCerrent[`${id}-${index}`] ? "bg-gray-200" : ""
+              isCerrent[`${id}-${index}`]
+                ? "bg-gray-200 scale-110 transition duration-1000 ease-out"
+                : ""
             }`}
             onMouseEnter={() => setIsCerrent({ [`${id}-${index}`]: true })}
             onMouseLeave={() => setIsCerrent({ [`${id}-${index}`]: false })}
