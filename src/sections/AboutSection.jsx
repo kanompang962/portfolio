@@ -108,11 +108,11 @@ const AboutSection = ({ addSectionIds }) => {
                   src={flutterIcon}
                   alt=""
                 />
-                {/* <img
+                <img
                   className="max-w-[2.5rem] max-h-[2.5rem] object-cover"
                   src={jqueryIcon}
                   alt=""
-                /> */}
+                />
                 <img
                   className="max-w-[2.5rem] max-h-[2.5rem]"
                   src={phpIcon}
