@@ -2,6 +2,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import hulu from '../assets/hulu.jpg';
 import netflix from '../assets/netflix.jpg';
+import youtube from '../assets/youtube.jpg';
+import modern from '../assets/modern.jpg';
 import gamelist from '../assets/gamelist.jpg';
 import mern from '../assets/mern.jpg';
 import crud from '../assets/crud.jpg';
@@ -41,6 +43,40 @@ export const data = [
             ["NodeJs", "Express", "MongoDB"]
         ],
         picture: netflix,
+    },
+    {
+        date: "2012-2023",
+        title: "YouTube Clone",
+        link: "https://youtube-clone-omega-snowy.vercel.app",
+        materials: [
+            { type: faGithub, link: 'https://github.com/kanompang962/youtube-clone.git' },
+            { type: faLink, link: 'https://youtube-clone-omega-snowy.vercel.app' },
+        ],
+        descriptions: [
+            "There is a function to work. web page design structure, play video on website",
+        ],
+        skills: [
+            ["React", "MUI"],
+
+        ],
+        picture: youtube,
+    },
+    {
+        date: "2012-2023",
+        title: "Bank Modern App",
+        link: "https://bank-modern-app-weld-three.vercel.app",
+        materials: [
+            { type: faGithub, link: 'https://github.com/kanompang962/bank_modern_app.git' },
+            { type: faLink, link: 'https://bank-modern-app-weld-three.vercel.app' },
+        ],
+        descriptions: [
+            "There is a function to work. web page design structure",
+        ],
+        skills: [
+            ["React", "Tailwind"],
+
+        ],
+        picture: modern,
     },
     {
         date: '2022-2023',
