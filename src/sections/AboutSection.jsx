@@ -62,7 +62,7 @@ const AboutSection = ({ addSectionIds }) => {
               <div className="text-[26px] lg:text-[36px] font-primary mb-2">
                 SKILLS
               </div>
-              <div className="grid grid-cols-6 lg:grid-cols-8 gap-y-4 gap-x-4 items-center justify-center lg:max-w-lg mb-12">
+              <div className="flex flex-row flex-wrap gap-y-4 gap-x-4 items-center sm:justify-start justify-center lg:max-w-lg mb-12">
                 <img
                   className="max-w-[2.5rem] max-h-[2.5rem]"
                   src={htmlIcon}
