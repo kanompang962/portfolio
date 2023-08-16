@@ -8,11 +8,30 @@ import gamelist from '../assets/gamelist.jpg';
 import mern from '../assets/mern.jpg';
 import crud from '../assets/crud.jpg';
 import warranty from '../assets/warranty.jpg';
+import dashboard from '../assets/dashboard-tw.jpg';
+import dashboard2 from '../assets/dashboard-scss.jpg';
 
 export const data = [
     {
         date: '2022-2023',
-        title: 'Hulu Clone',
+        title: 'Admin Dashboard Tailwind',
+        link: 'https://dashboard-tailwind-five.vercel.app',
+        materials: [
+            { type: faGithub, link: 'https://github.com/kanompang962/dashboard-tailwind.git' },
+            { type: faLink, link: 'https://dashboard-tailwind-five.vercel.app' },
+        ],
+        descriptions: [
+            "A function to work. web design structure, Chartjs, MUI Table",
+        ],
+        skills: [
+            ["React", "Tailwind", 'MUI'],
+
+        ],
+        picture: dashboard,
+    },
+    {
+        date: '2022-2023',
+        title: 'Hulu App',
         link: 'https://hulu-clone-rho-wine.vercel.app',
         materials: [
             { type: faGithub, link: 'https://github.com/kanompang962/hulu-clone.git' },
@@ -29,7 +48,7 @@ export const data = [
     },
     {
         date: "2012-2023",
-        title: "Netflix Clone",
+        title: "Netflix App",
         link: "https://netflix-clone-frontend-cyan.vercel.app",
         materials: [
             { type: faGithub, link: 'https://github.com/kanompang962/netflix-clone-frontend.git' },
@@ -45,8 +64,25 @@ export const data = [
         picture: netflix,
     },
     {
+        date: '2022-2023',
+        title: 'Admin Dashboard Scss',
+        link: 'https://dashboard-scss-eight.vercel.app/',
+        materials: [
+            { type: faGithub, link: 'https://github.com/kanompang962/dashboard-scss.git' },
+            { type: faLink, link: 'https://dashboard-scss-eight.vercel.app/' },
+        ],
+        descriptions: [
+            "A function to work. web design structure, Chartjs, MUI Table",
+        ],
+        skills: [
+            ["React", "SCSS", 'MUI'],
+
+        ],
+        picture: dashboard2,
+    },
+    {
         date: "2012-2023",
-        title: "YouTube Clone",
+        title: "YouTube App",
         link: "https://youtube-clone-omega-snowy.vercel.app",
         materials: [
             { type: faGithub, link: 'https://github.com/kanompang962/youtube-clone.git' },
@@ -80,7 +116,7 @@ export const data = [
     },
     {
         date: '2022-2023',
-        title: 'Game List Clone',
+        title: 'Game List App',
         link: 'https://game-list-clone.vercel.app/',
         materials: [
             { type: faGithub, link: 'https://github.com/kanompang962/game-list-clone.git' },
